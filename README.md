@@ -2,4 +2,4 @@
 [Watch Now](https://tharukrenuja.github.io/My-Website)
 
 ## Preview
-![Preview](./img/Design.png)
+![Preview](./img/Preview.png)
