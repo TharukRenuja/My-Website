@@ -264,26 +264,26 @@ p {
 
 /* End Hero Section */
 
-/* Services Section */
-#services .services {
+/* Organizations Section */
+#organizations .organizations {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#services .service-top {
+#organizations .organizations-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
-#services .service-bottom {
+#organizations .organizations-bottom {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-#services .service-item {
+#organizations .organizations-item {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -298,7 +298,7 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-#services .service-item::after {
+#organizations .organizations-item::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -309,22 +309,22 @@ p {
 	opacity: .9;
 	z-index: -1;
 }
-#services .service-bottom .icon {
+#organizations .organizations-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-#services .service-item h2 {
+#organizations .organizations-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#services .service-item p {
+#organizations .organizations-item p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
+/* End Organizations Section */
 
 /* Projects section */
 #projects .projects {
